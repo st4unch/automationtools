@@ -1,3 +1,5 @@
+#this script reads an alert mail from gmail and if it's has related subject then scripts block related ip addresses. you have to configure aws-cli in your server.
+
 import subprocess
 import imaplib
 import email
